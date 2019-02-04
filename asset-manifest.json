@@ -1,13 +1,13 @@
 {
-  "main.css": "/Button-MetaMask/static/css/main.568040ef.chunk.css",
-  "main.js": "/Button-MetaMask/static/js/main.7d3fb175.chunk.js",
-  "main.js.map": "/Button-MetaMask/static/js/main.7d3fb175.chunk.js.map",
-  "static/js/1.975ed8db.chunk.js": "/Button-MetaMask/static/js/1.975ed8db.chunk.js",
-  "static/js/1.975ed8db.chunk.js.map": "/Button-MetaMask/static/js/1.975ed8db.chunk.js.map",
+  "main.css": "/Button-MetaMask/static/css/main.2da753b7.chunk.css",
+  "main.js": "/Button-MetaMask/static/js/main.5fe7ad89.chunk.js",
+  "main.js.map": "/Button-MetaMask/static/js/main.5fe7ad89.chunk.js.map",
+  "static/js/1.7ffcaddd.chunk.js": "/Button-MetaMask/static/js/1.7ffcaddd.chunk.js",
+  "static/js/1.7ffcaddd.chunk.js.map": "/Button-MetaMask/static/js/1.7ffcaddd.chunk.js.map",
   "runtime~main.js": "/Button-MetaMask/static/js/runtime~main.2f8fbd09.js",
   "runtime~main.js.map": "/Button-MetaMask/static/js/runtime~main.2f8fbd09.js.map",
-  "static/css/main.568040ef.chunk.css.map": "/Button-MetaMask/static/css/main.568040ef.chunk.css.map",
+  "static/css/main.2da753b7.chunk.css.map": "/Button-MetaMask/static/css/main.2da753b7.chunk.css.map",
   "index.html": "/Button-MetaMask/index.html",
-  "precache-manifest.0750c5af834e237dae1ffc29a2ca2db7.js": "/Button-MetaMask/precache-manifest.0750c5af834e237dae1ffc29a2ca2db7.js",
+  "precache-manifest.9b441296e3c3f31be4de98911534182c.js": "/Button-MetaMask/precache-manifest.9b441296e3c3f31be4de98911534182c.js",
   "service-worker.js": "/Button-MetaMask/service-worker.js"
 }
