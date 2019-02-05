@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/Button-MetaMask/static/js/runtime~main.2f8fbd09.js"
   },
   {
-    "revision": "768b4286ad118c1ef90f",
-    "url": "/Button-MetaMask/static/js/main.768b4286.chunk.js"
+    "revision": "e4d2a90b536f63b4064a",
+    "url": "/Button-MetaMask/static/js/main.e4d2a90b.chunk.js"
   },
   {
     "revision": "a5ffad13161c107c397d",
     "url": "/Button-MetaMask/static/js/1.a5ffad13.chunk.js"
   },
   {
-    "revision": "768b4286ad118c1ef90f",
+    "revision": "e4d2a90b536f63b4064a",
     "url": "/Button-MetaMask/static/css/main.48141973.chunk.css"
   },
   {
-    "revision": "59e9239b3aad9d056c586d947d459bfa",
+    "revision": "1dfee1a1ddd57849604c82f22fb8123a",
     "url": "/Button-MetaMask/index.html"
   }
 ];
