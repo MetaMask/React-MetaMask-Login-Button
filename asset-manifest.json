@@ -1,14 +1,14 @@
 {
   "main.css": "/Button-MetaMask/static/css/main.48141973.chunk.css",
-  "main.js": "/Button-MetaMask/static/js/main.92b680a5.chunk.js",
-  "main.js.map": "/Button-MetaMask/static/js/main.92b680a5.chunk.js.map",
+  "main.js": "/Button-MetaMask/static/js/main.92179ce6.chunk.js",
+  "main.js.map": "/Button-MetaMask/static/js/main.92179ce6.chunk.js.map",
   "static/js/1.a5ffad13.chunk.js": "/Button-MetaMask/static/js/1.a5ffad13.chunk.js",
   "static/js/1.a5ffad13.chunk.js.map": "/Button-MetaMask/static/js/1.a5ffad13.chunk.js.map",
   "runtime~main.js": "/Button-MetaMask/static/js/runtime~main.2f8fbd09.js",
   "runtime~main.js.map": "/Button-MetaMask/static/js/runtime~main.2f8fbd09.js.map",
-  "static/media/Ropsten.png": "/Button-MetaMask/static/media/Ropsten.648d2e90.png",
+  "static/media/Ropsten.png": "/Button-MetaMask/static/media/Ropsten.7a313811.png",
   "static/css/main.48141973.chunk.css.map": "/Button-MetaMask/static/css/main.48141973.chunk.css.map",
   "index.html": "/Button-MetaMask/index.html",
-  "precache-manifest.a3b9788bb42219b6296802c0ab014199.js": "/Button-MetaMask/precache-manifest.a3b9788bb42219b6296802c0ab014199.js",
+  "precache-manifest.b7b78dd78eb6b4a58db2febb23cf1adc.js": "/Button-MetaMask/precache-manifest.b7b78dd78eb6b4a58db2febb23cf1adc.js",
   "service-worker.js": "/Button-MetaMask/service-worker.js"
 }
