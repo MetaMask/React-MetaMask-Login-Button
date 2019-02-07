@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Button-MetaMask/precache-manifest.6d3564f404b905218b1224434cb1e698.js"
+  "/React-MetaMask-Login-Button/precache-manifest.760c1b367685c8d1651420e957fd93f3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Button-MetaMask/index.html", {
+workbox.routing.registerNavigationRoute("/React-MetaMask-Login-Button/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

@@ -1,14 +1,14 @@
 {
-  "main.css": "/Button-MetaMask/static/css/main.f6649d8a.chunk.css",
-  "main.js": "/Button-MetaMask/static/js/main.f64b1a1b.chunk.js",
-  "main.js.map": "/Button-MetaMask/static/js/main.f64b1a1b.chunk.js.map",
-  "static/js/1.a0c43bc8.chunk.js": "/Button-MetaMask/static/js/1.a0c43bc8.chunk.js",
-  "static/js/1.a0c43bc8.chunk.js.map": "/Button-MetaMask/static/js/1.a0c43bc8.chunk.js.map",
-  "runtime~main.js": "/Button-MetaMask/static/js/runtime~main.2f8fbd09.js",
-  "runtime~main.js.map": "/Button-MetaMask/static/js/runtime~main.2f8fbd09.js.map",
-  "static/media/Ropsten.png": "/Button-MetaMask/static/media/Ropsten.7a313811.png",
-  "static/css/main.f6649d8a.chunk.css.map": "/Button-MetaMask/static/css/main.f6649d8a.chunk.css.map",
-  "index.html": "/Button-MetaMask/index.html",
-  "precache-manifest.6d3564f404b905218b1224434cb1e698.js": "/Button-MetaMask/precache-manifest.6d3564f404b905218b1224434cb1e698.js",
-  "service-worker.js": "/Button-MetaMask/service-worker.js"
+  "main.css": "/React-MetaMask-Login-Button/static/css/main.f6649d8a.chunk.css",
+  "main.js": "/React-MetaMask-Login-Button/static/js/main.26f899b9.chunk.js",
+  "main.js.map": "/React-MetaMask-Login-Button/static/js/main.26f899b9.chunk.js.map",
+  "static/js/1.6cb16590.chunk.js": "/React-MetaMask-Login-Button/static/js/1.6cb16590.chunk.js",
+  "static/js/1.6cb16590.chunk.js.map": "/React-MetaMask-Login-Button/static/js/1.6cb16590.chunk.js.map",
+  "runtime~main.js": "/React-MetaMask-Login-Button/static/js/runtime~main.9d7b1181.js",
+  "runtime~main.js.map": "/React-MetaMask-Login-Button/static/js/runtime~main.9d7b1181.js.map",
+  "static/media/Ropsten.png": "/React-MetaMask-Login-Button/static/media/Ropsten.7a313811.png",
+  "static/css/main.f6649d8a.chunk.css.map": "/React-MetaMask-Login-Button/static/css/main.f6649d8a.chunk.css.map",
+  "index.html": "/React-MetaMask-Login-Button/index.html",
+  "precache-manifest.760c1b367685c8d1651420e957fd93f3.js": "/React-MetaMask-Login-Button/precache-manifest.760c1b367685c8d1651420e957fd93f3.js",
+  "service-worker.js": "/React-MetaMask-Login-Button/service-worker.js"
 }
