@@ -1,14 +1,14 @@
 {
-  "main.css": "/React%20MetaMask%20Login%20Button/static/css/main.f6649d8a.chunk.css",
-  "main.js": "/React%20MetaMask%20Login%20Button/static/js/main.40eccf44.chunk.js",
-  "main.js.map": "/React%20MetaMask%20Login%20Button/static/js/main.40eccf44.chunk.js.map",
-  "static/js/1.f2b67ce9.chunk.js": "/React%20MetaMask%20Login%20Button/static/js/1.f2b67ce9.chunk.js",
-  "static/js/1.f2b67ce9.chunk.js.map": "/React%20MetaMask%20Login%20Button/static/js/1.f2b67ce9.chunk.js.map",
-  "runtime~main.js": "/React%20MetaMask%20Login%20Button/static/js/runtime~main.80fb43e7.js",
-  "runtime~main.js.map": "/React%20MetaMask%20Login%20Button/static/js/runtime~main.80fb43e7.js.map",
-  "static/media/Ropsten.png": "/React%20MetaMask%20Login%20Button/static/media/Ropsten.7a313811.png",
-  "static/css/main.f6649d8a.chunk.css.map": "/React%20MetaMask%20Login%20Button/static/css/main.f6649d8a.chunk.css.map",
-  "index.html": "/React%20MetaMask%20Login%20Button/index.html",
-  "precache-manifest.cf517f1c4dce9f0eddcc0de9a7dbba99.js": "/React%20MetaMask%20Login%20Button/precache-manifest.cf517f1c4dce9f0eddcc0de9a7dbba99.js",
-  "service-worker.js": "/React%20MetaMask%20Login%20Button/service-worker.js"
+  "main.css": "/Button-MetaMask/static/css/main.f6649d8a.chunk.css",
+  "main.js": "/Button-MetaMask/static/js/main.f64b1a1b.chunk.js",
+  "main.js.map": "/Button-MetaMask/static/js/main.f64b1a1b.chunk.js.map",
+  "static/js/1.a0c43bc8.chunk.js": "/Button-MetaMask/static/js/1.a0c43bc8.chunk.js",
+  "static/js/1.a0c43bc8.chunk.js.map": "/Button-MetaMask/static/js/1.a0c43bc8.chunk.js.map",
+  "runtime~main.js": "/Button-MetaMask/static/js/runtime~main.2f8fbd09.js",
+  "runtime~main.js.map": "/Button-MetaMask/static/js/runtime~main.2f8fbd09.js.map",
+  "static/media/Ropsten.png": "/Button-MetaMask/static/media/Ropsten.7a313811.png",
+  "static/css/main.f6649d8a.chunk.css.map": "/Button-MetaMask/static/css/main.f6649d8a.chunk.css.map",
+  "index.html": "/Button-MetaMask/index.html",
+  "precache-manifest.6d3564f404b905218b1224434cb1e698.js": "/Button-MetaMask/precache-manifest.6d3564f404b905218b1224434cb1e698.js",
+  "service-worker.js": "/Button-MetaMask/service-worker.js"
 }
