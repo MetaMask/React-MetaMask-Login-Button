@@ -1,0 +1,218 @@
+
+<img src='https://jxnblk.com/styled-system/logo.svg' width='128' height='128' />
+
+# Styled System
+
+Responsive, theme-based style props for building design systems with React
+
+[![stars][]][github]
+[![Build Status][ci]][travis]
+[![Downloads][]][npm]
+[![Version][]][npm]
+![size][]
+![MIT License][license]
+
+[ci]: https://flat.badgen.net/travis/jxnblk/styled-system
+[version]: https://flat.badgen.net/npm/v/styled-system
+[downloads]: https://flat.badgen.net/npm/dw/styled-system
+[license]: https://flat.badgen.net/badge/license/MIT/blue
+[stars]: https://flat.badgen.net/github/stars/jxnblk/styled-system
+[size]: https://flat.badgen.net/bundlephobia/minzip/styled-system
+
+[npm]: https://npmjs.com/package/styled-system
+[travis]: https://travis-ci.org/jxnblk/styled-system
+[github]: https://github.com/jxnblk/styled-system
+
+
+```sh
+npm i styled-system
+```
+
+## Features
+
+- Add style props that hook into your own theme
+- Quickly set responsive font-size, margin, padding, width, and more with props
+- Influenced by constraint-based design system principles
+- Typographic scale
+- Spacing scale for margin and padding
+- Works with any color palette
+- Works with most css-in-js libraries, including [styled-components][] & [emotion][emotion]
+- Used in [Rebass](https://rebassjs.org), [Rebass Grid](https://grid.rebassjs.org/), and the [Priceline Design System](https://github.com/pricelinelabs/design-system)
+
+> "This is honestly my favourite way to build UI components right now ![party parrot][party-parrot]"
+>
+> – [Varun Vachhar][varun-post]
+
+[party-parrot]: https://github.com/jmhobbs/cultofthepartyparrot.com/raw/master/parrots/parrot.gif
+
+<!--
+> "Fantastic set of tools that offer the ease and API of tachyons/functional CSS but, are way more customisable."
+>
+> – [Varun Vachhar](https://mobile.twitter.com/winkerVSbecks/status/955619873463431168)
+-->
+
+> "The future of css-in-js is going to look something like styled-system with its responsive values."<br/>
+>
+> – [Kye Hohenberger](https://mobile.twitter.com/tkh44/status/905474043729416192)
+
+> "Coming from @tachyons_css, the styled-system utilities from @jxnblk is the missing link I’ve been looking for."<br/>
+>
+> – [Nathan Young](https://mobile.twitter.com/nathanyoung/status/891353221880360960)
+
+> "If you make websites/apps with React check out Styled System if you haven't already. You will be amazed at how much faster you can build."
+>
+> – [David Yeiser][david-tweet]
+
+[dalgleish]: https://mobile.twitter.com/markdalgleish/status/913191186944241665
+[mrmrs]: https://mobile.twitter.com/mrmrs_/status/913189805055401984
+
+<!--
+
+todo: react-scripts is borked
+
+## Try It Out
+
+Try the [examples](examples) on CodeSandbox
+
+- [Basic](https://codesandbox.io/s/github/jxnblk/styled-system/tree/master/examples/basic)
+- [Emotion](https://codesandbox.io/s/github/jxnblk/styled-system/tree/master/examples/emotion)
+- [Theme Aliases](https://codesandbox.io/s/github/jxnblk/styled-system/tree/master/examples/theme-aliases)
+
+-->
+
+
+### Table of Contents
+
+- [Usage](#usage)
+- [Getting Started](#getting-started)
+- [Docs](#docs)
+- [Related](#related)
+
+## Usage
+
+```jsx
+// Example uses styled-components, but styled-system works with most other css-in-js libraries as well
+import styled from 'styled-components'
+import { space, width, fontSize, color } from 'styled-system'
+
+// Add styled-system functions to your component
+const Box = styled.div`
+  ${space}
+  ${width}
+  ${fontSize}
+  ${color}
+`
+```
+
+Each style function exposes its own set of component props
+that handle styles based on values defined in a theme.
+
+```jsx
+// width: 50%
+<Box width={1/2} />
+
+// font-size: 20px (theme.fontSizes[4])
+<Box fontSize={4} />
+
+// margin: 16px (theme.space[2])
+<Box m={2} />
+
+// padding: 32px (theme.space[3])
+<Box p={3} />
+
+// color
+<Box color='tomato' />
+
+// color: #333 (theme.colors.gray[0])
+<Box color='grays.0' />
+
+// background color
+<Box bg='tomato' />
+```
+
+## Responsive Style Props
+
+Set responsive width, margin, padding, font-size, and other properties with a shorthand array syntax.
+[Read more](docs/responsive-styles.md)
+
+```jsx
+// responsive width
+<Box width={[ 1, 1/2, 1/4 ]} />
+
+// responsive font-size
+<Box fontSize={[ 2, 3, 4 ]} />
+
+// responsive margin
+<Box m={[ 1, 2, 3 ]} />
+
+// responsive padding
+<Box p={[ 1, 2, 3 ]} />
+```
+
+To learn more, see the [Getting Started](docs/getting-started.md) guide or read the docs.
+
+<!-- link shims for previous readme -->
+<a name='getting-started'></a>
+<a name='how-it-works'></a>
+<a name='responsive-styles'></a>
+<a name='api'></a>
+<a name='system-components'></a>
+<a name='default-theme'></a>
+<a name='troubleshooting'></a>
+<a name='cleanelement'></a>
+
+## Docs
+
+
+- [Getting Started](docs/getting-started.md)
+- [Responsive Styles](docs/responsive-styles.md)
+- [How it Works](docs/how-it-works.md)
+- [API](docs/api.md)
+  - [Core](docs/api.md#core)
+    - [space](docs/api.md#space) (margins & paddings)
+    - [width](docs/api.md#width)
+    - [fontSize](docs/api.md#fontsize)
+    - [color](docs/api.md#color) (and background-color)
+  - [Typography](docs/api.md#typography)
+  - [Layout](docs/api.md#layout)
+  - [Flexbox](docs/api.md#flexbox)
+  - [Borders](docs/api.md#borders)
+  - [Position](docs/api.md#position)
+  - [Misc](docs/api.md#misc)
+  - [Variants](docs/api.md#variant)
+  - [Utilities](docs/api.md#utilities)
+    - [get](docs/api.md#get)
+  - [Customize](docs/api.md#customize)
+    - [style](docs/api.md#style)
+    - [variant](docs/api.md#variant)
+- [Table of Style Functions](docs/table.md)
+- [Custom Props](docs/custom-props.md)
+- [Troubleshooting](docs/troubleshooting.md)
+
+
+---
+
+## Further Reading
+
+- [Component Based Design System With Styled-System][varun-post]
+
+
+## Related
+
+- [Rebass](https://rebassjs.org)
+- [Rebass Grid](https://grid.rebassjs.org)
+- [styled-components][]
+- [emotion][]
+
+[styled-components]: https://github.com/styled-components/styled-components
+[emotion]: https://github.com/emotion-js/emotion
+[varun-post]: https://varun.ca/styled-system/
+[david-tweet]: https://mobile.twitter.com/davidyeiser/status/965920740582285312
+
+<!-- new links -->
+[cole-tweet]: https://mobile.twitter.com/colebemis/status/996565848138526721
+[mrmrs-elements]: https://github.com/mrmrs/elements
+[broccs-react-starter]: https://github.com/broccolini/react-website-starter
+[dalgleish]: https://mobile.twitter.com/markdalgleish/status/913191186944241665
+
+[MIT License](LICENSE.md)
