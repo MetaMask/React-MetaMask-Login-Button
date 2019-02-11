@@ -12,6 +12,7 @@ This button can be used  to:
 ## Installation
 ```bash
 $ npm install react-metamask-login-button
+or
 $ yarn add react-metamask-login-button
 ```
 
