@@ -1,8 +1,0 @@
-{
-  "extends": "tslint:recommended",
-  "rules": {
-    "quotemark": [true, "single"],
-    "interface-name": [true, "never-prefix"],
-    "max-classes-per-file": false
-  }
-}
