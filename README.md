@@ -47,7 +47,7 @@ Optional changes to the views can be made for each component
 
 Can be changed to 
 
-![image](https://user-images.githubusercontent.com/35871990/52607876-e7515900-2e45-11e9-9e7e-6eb52407ee96.png)
+![image](https://user-images.githubusercontent.com/35871990/52656863-44402400-2ec5-11e9-8302-7fea6883fe07.png)
 
 
 by changing the Login.js component 
