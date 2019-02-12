@@ -38,10 +38,9 @@ ReactDOM.render(<App />, appElement);
 ```
 ## Optional Modifications
 
-Optional changes to the views can be made for each component 
+Optional changes to the views can be made for each component.
+**For example the "Signed in with MetaMask screen" can be changed to a login screen for your app by making modifications to the login.js component "
 
-**For Example the "Signed in with MetaMask" screen can be changed to a Login Screen for your app by making changes to the Login.js component **
-===
 
 ![image](https://user-images.githubusercontent.com/35871990/52607678-1e733a80-2e45-11e9-871f-816a0192e91d.png)
 
