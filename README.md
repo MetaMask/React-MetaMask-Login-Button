@@ -40,17 +40,10 @@ ReactDOM.render(<App />, appElement);
 
 Optional changes to the views can be made for each component 
 
-**Example**
+**For Example the "Signed in with MetaMask" screen can be changed to a Login Screen for your app by making changes to the Login.js component **
 ===
 
 ![image](https://user-images.githubusercontent.com/35871990/52607678-1e733a80-2e45-11e9-871f-816a0192e91d.png)
-
-
-Can be changed to 
-
-![image](https://user-images.githubusercontent.com/35871990/52659354-16f67480-2ecb-11e9-8049-7fa704246100.png)
-
-by changing the Login.js component 
 
 ```js
 import React, { Component } from "react";
@@ -84,4 +77,10 @@ export default class Login extends Component {
   }
 }
 ```
+
+![image](https://user-images.githubusercontent.com/35871990/52659354-16f67480-2ecb-11e9-8049-7fa704246100.png)
+
+ 
+
+
 
