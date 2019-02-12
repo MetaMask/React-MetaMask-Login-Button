@@ -53,8 +53,7 @@ Can be changed to
 by changing the Login.js component 
 
 ```js
-
-  import React, { Component } from "react";
+import React, { Component } from "react";
 import  {Form,Button} from "react-bootstrap";
 import Web3 from "web3";
 
@@ -87,6 +86,5 @@ export default class Login extends Component {
     );
   }
 }
-
 ```
 
