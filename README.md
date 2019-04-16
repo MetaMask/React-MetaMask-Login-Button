@@ -7,6 +7,7 @@ This button can be used  to:
 - Install MetaMask 
 - Log in to MetaMak
 - Connect to the right network
+- Redirect to your app
 - Log in to your app
 
 ## Installation
