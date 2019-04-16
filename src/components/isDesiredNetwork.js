@@ -20,7 +20,6 @@ export default class isDesiredNetwork extends Component {
         e.preventDefault();
         this.setState({ clicked: !this.state.clicked })
         if (this.state.clicked) {
-            this.state.image = <img src={image} height="300" width="450 " alt="fireSpot" />
             this.state.description = 'Go to the network\'s dropdown and Select Ropsten network'
         }
         else {
